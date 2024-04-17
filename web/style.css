@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'Gilroy';
+	src: url(fonts/gilroy.ttf)
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translate(-50%, -25%);
+    }
+  }
+
+body {
+    display: none;
+    user-select: none;
+}
+
+.container {
+    position: fixed;
+    display: flex;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -25%);
+    animation: slideIn 0.3s ease-in-out;
+}
+
+.interact-key {
+    font-size: 15px;
+    font-weight: 700;
+    color: #00f8b9;
+    background: radial-gradient(
+        31.98% 56.85% at 50% 50%,
+        rgba(26, 29, 41, 0.9) 0%,
+        rgba(34, 37, 48, 0.92) 100%
+      );
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.interact-key-b {
+    background: radial-gradient(
+        62.19% 62.19% at 50% 50%,
+        rgba(0, 248, 185, 0.25) 0%,
+        rgba(0, 102, 76, 0.25) 100%
+      );
+    font-family: Gilroy;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: calc(0.092592592vh * 4);
+    border: 1px solid #00f8b9;
+}
+
+.interact-text {
+    position: relative;
+    font-size: calc(0.092592592vh * 16);
+    font-weight: 500;
+    color: #fff;
+    font-family: Gilroy;
+    background: radial-gradient(
+        31.98% 56.85% at 50% 50%,
+        rgba(26, 29, 41, 0.9) 0%,
+        rgba(34, 37, 48, 0.92) 100%
+      );
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 12px;
+    margin: 5px;
+  border-radius: calc(0.092592592vh * 4);
+}
+
+.interact-text-b {
+    position: relative;
+    width: calc(0.092592592vh * 5);
+    height: calc(0.092592592vh * 5);
+    box-shadow: 0px 0px calc(0.092592592vh * 7.72) 0px #00f8b9;
+    background-color: #00f8b9;
+    right: 17px;
+    top: 2px;
+}
