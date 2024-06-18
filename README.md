@@ -22,7 +22,7 @@
 
 # Preview
 
-https://cdn.discordapp.com/attachments/1070832717920469043/1230293822148317184/image.png?ex=6672bc28&is=66716aa8&hm=58a9085d8ad89000d2abcce2c1aa3a9d972e26d1dd6f3437d3c1d2bc584c713c&
+![image](https://cdn.discordapp.com/attachments/1070832717920469043/1230293822148317184/image.png?ex=6672bc28&is=66716aa8&hm=58a9085d8ad89000d2abcce2c1aa3a9d972e26d1dd6f3437d3c1d2bc584c713c&)
 
 # Discord: guf1ck
 # Karma Developments Discord: https://discord.gg/ErC9mfYakh
